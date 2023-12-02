@@ -1,11 +1,13 @@
 package Abstrato;
 
-public class Email {
+public abstract class Email {
 
-    protected Pessoa pessoa;
-    protected String enderecoEmail;
-    protected String servido;
-    protected String dominio;
+    private Pessoa pessoa;
+    private String enderecoEmail;
+    private String servido;
+    private String dominio;
+
+    protected Email(){}
 
     protected Email (Pessoa pessoa, String enderecoEmail, String servido, String domindo){
         this.dominio = domindo;

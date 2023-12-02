@@ -1,6 +1,6 @@
 package Abstrato;
 
-public class Endereco {
+public abstract class Endereco {
 
     private Pessoa pessoa;
     private String logradouro;
@@ -8,6 +8,8 @@ public class Endereco {
     private String cep;
     private String estado;
     private String pais;
+
+    public Endereco(){}
     
     public Endereco(Pessoa pessoa, String logradouro, String tipo, String cep, String estado, String pais){
         this.pessoa = pessoa;

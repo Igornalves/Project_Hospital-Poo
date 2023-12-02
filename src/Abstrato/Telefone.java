@@ -1,6 +1,6 @@
 package Abstrato;
 
-public class Telefone {
+public abstract class Telefone {
 
     private String ddi;
     private String operadora;
