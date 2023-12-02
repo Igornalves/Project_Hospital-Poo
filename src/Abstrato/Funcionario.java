@@ -1,6 +1,6 @@
 package Abstrato;
 
-public class Funcionario {
+public abstract class Funcionario {
 
     
 }

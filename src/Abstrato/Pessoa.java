@@ -10,7 +10,9 @@ public abstract class Pessoa {
     private ArrayList<Email> emails;
     private ArrayList<Telefone> telefones;
 
-    public Pessoa (){
+    public Pessoa (String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
         enderecos = new ArrayList<Endereco>();
         emails = new ArrayList<Email>();
         telefones = new ArrayList<Telefone>();
@@ -64,16 +66,16 @@ public abstract class Pessoa {
         return telefones.get(posicao);
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-    public int getIdade() {
-        return idade;
-    }
-    public String getNome() {
-        return nome;
-    }
+   public void setNome(String nome) {
+       this.nome = nome;
+   }
+   public void setIdade(int idade) {
+       this.idade = idade;
+   }
+   public String getNome() {
+       return nome;
+   }
+   public int getIdade() {
+       return idade;
+   }
 }

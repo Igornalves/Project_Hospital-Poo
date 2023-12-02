@@ -2,53 +2,44 @@ package Abstrato;
 
 public class Telefone {
 
-    private Pessoa pessoa;
     private String ddi;
     private String operadora;
     private String ddd;
     private String numero;
 
-    public Telefone (){
+    protected Telefone (){
     }
 
-    public void setDdd(String ddd) {
+    protected void setDdd(String ddd) {
         this.ddd = ddd;
     }
 
-    public void setDdi(String ddi) {
+    protected void setDdi(String ddi) {
         this.ddi = ddi;
     }
 
-    public void setNumero(String numero) {
+    protected void setNumero(String numero) {
         this.numero = numero;
     }
 
-    public void setOperadora(String operadora) {
+    protected void setOperadora(String operadora) {
         this.operadora = operadora;
     }
 
-    public void setPessoa(Pessoa pessoa) {
-        this.pessoa = pessoa;
-    } 
-
-    public String getDdd() {
+    protected String getDdd() {
         return ddd;
     }
 
-    public String getDdi() {
+    protected String getDdi() {
         return ddi;
     }
 
-    public String getNumero() {
+    protected String getNumero() {
         return numero;
     }
 
-    public String getOperadora() {
+    protected String getOperadora() {
         return operadora;
-    }
-
-    public Pessoa getPessoa() {
-        return pessoa;
     }
 
 }
