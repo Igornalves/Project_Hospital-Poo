@@ -9,6 +9,8 @@ public abstract class Pessoa {
     private ArrayList<Endereco> enderecos;
     private ArrayList<Email> emails;
     private ArrayList<Telefone> telefones;
+    
+    public Pessoa(){}
 
     public Pessoa (String nome, int idade){
         this.nome = nome;

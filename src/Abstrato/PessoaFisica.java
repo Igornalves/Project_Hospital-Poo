@@ -5,11 +5,13 @@ public abstract class PessoaFisica extends Pessoa {
     private String cpf;
     private char sexo;
     private double peso;
-    
-    public PessoaFisica(String nome,int idade, String cpf, char sexo, double peso){
+
+    public PessoaFisica(){}
+
+    public PessoaFisica(String nome, int idade,String cpf,char sexo,double peso){
         super(nome, idade);
         this.cpf = cpf;
-        this.peso = peso; 
+        this.peso = peso;
         this.sexo = sexo;
     }
 
@@ -25,16 +27,15 @@ public abstract class PessoaFisica extends Pessoa {
         this.sexo = sexo;
     }
 
-    public char getSexo() {
-        return sexo;
-    }
-
     public double getPeso() {
         return peso;
+    }
+
+    public char getSexo() {
+        return sexo;
     }
 
     public String getCpf() {
         return cpf;
     }
-
 }

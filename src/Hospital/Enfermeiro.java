@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import Abstrato.Funcionario;
 import Empresa.Ala;
+import Empresa.Hospital;
 import Interface.ProfissionalDaSaude;
 
 public class Enfermeiro extends Funcionario implements ProfissionalDaSaude {
@@ -13,6 +14,11 @@ public class Enfermeiro extends Funcionario implements ProfissionalDaSaude {
 
     public Enfermeiro (){
         pacientes = new ArrayList<Paciente>();
+    }
+
+    public Enfermeiro(String nome, int idade,String cpf,char sexo,double peso ,Hospital hospital, String matricula,double salario, int cargaHorariaTrabalho,Ala ala){
+        super(nome, idade, cpf, sexo, peso, hospital, matricula, salario, cargaHorariaTrabalho);
+        this.numeroAla = ala;
     }
 
     public void adcionarPaciente(Paciente paciente){
@@ -33,17 +39,22 @@ public class Enfermeiro extends Funcionario implements ProfissionalDaSaude {
 
     @Override
     public void aplicarMedicamento(Paciente paciente) {
-        System.out.println("O(A) Enfermeiro(a) " + paciente.getNome() + " estar aplicando o medicamento");
-    }
-    @Override
-    public void consultar(Paciente paciente) {
+        // TODO Auto-generated method stub
         
     }
+
     @Override
-    public void verificarPaciente(Paciente paciente) {
+    public void consultar(Paciente paciente) {
+        // TODO Auto-generated method stub
         
     }
     
+    @Override
+    public void verificarPaciente(Paciente paciente) {
+        // TODO Auto-generated method stub
+        
+    }
+
     public void setNumeroAla(Ala numeroAla) {
         this.numeroAla = numeroAla;
     }

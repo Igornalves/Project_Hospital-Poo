@@ -1,5 +1,5 @@
 package Empresa;
 
-public class Quarta {
+public class Quarto {
     
 }

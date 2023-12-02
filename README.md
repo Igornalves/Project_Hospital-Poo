@@ -1,18 +1,63 @@
-## Getting Started
+## Projeto Resposta a 2° Avaliação de PROGRAMAÇÃO ORIENTADA A OBJETOS E ESTRUTURA DE DADOS 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Seja Muito Bem vindo ao repositorio do projeto no qual é uma resposta a uma das questões da prova no qual era um diagrama de algumas classes 
 
-## Folder Structure
+## Imagem do Diagrama de Classes da Prova
 
-The workspace contains two folders by default, where:
+![diagrama de classes](/image.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Como se pode ver na imagem Existem muitas Classes dentro da questão feita na questão, farei uma lista dessas classes aqui para vcs visualizarem,
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Vamos comecar listando as Classes Abstratas:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Email
+- Endereço
+- Funcionario
+- Pessoa
+- Pessoa Fisica
+- Pessoa Juridica
+- Telefone
 
-## Dependency Management
+Agora iremos lista as Classes de Empresa:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Ala
+- Hospital
+- Quarto
+- Sala
+
+Continuando temos as Classes de Hospital:
+
+- Enfermeiro 
+- Enfermidade
+- Medico
+- Paciente
+
+Teremos as Classes que são interfaces do projeto:
+
+- Profissional Da Saude
+
+
+## Explicação Detalhada 
+
+Este Projeto foi feito todo na linguagem java:. 
+
+<img align="center" alt="java" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+
+<br>
+
+Linguagem essa que que em nossa materia foi a padrão para que podessemos aprender a programação orientada a objetos 
+
+E tambem estrutura de dados que nessa prova foi abordado.
+
+## Participantes Do Grupo 
+
+Estar prova não foi feita de forma individual e sim coletiva 
+
+o integrantes do grupo são: 
+
+- Igor Nascimento 
+- Alexandre 
+- Marcello Henrique
+
+Agradecer a ele que me ajudaram no projeto que esta finalizado.
+
