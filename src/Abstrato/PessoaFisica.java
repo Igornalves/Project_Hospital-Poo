@@ -3,12 +3,12 @@ package Abstrato;
 public abstract class PessoaFisica extends Pessoa {
 
     private String cpf;
-    private char sexo;
+    private String sexo;
     private double peso;
 
     public PessoaFisica(){}
 
-    public PessoaFisica(String nome, int idade,String cpf,char sexo,double peso){
+    public PessoaFisica(String nome, int idade,String cpf,String sexo,double peso){
         super(nome, idade);
         this.cpf = cpf;
         this.peso = peso;
@@ -23,7 +23,7 @@ public abstract class PessoaFisica extends Pessoa {
         this.peso = peso;
     }
 
-    public void setSexo(char sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
@@ -31,7 +31,7 @@ public abstract class PessoaFisica extends Pessoa {
         return peso;
     }
 
-    public char getSexo() {
+    public String getSexo() {
         return sexo;
     }
 

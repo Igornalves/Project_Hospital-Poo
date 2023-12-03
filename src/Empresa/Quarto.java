@@ -2,30 +2,30 @@ package Empresa;
 
 public class Quarto {
 
-    protected int numero;
-    protected Hospital hospital;
+    private int numero;
+    private Hospital hospital;
 
-    protected Quarto() {
+    public Quarto() {
     }
 
-    protected Quarto(int numero, Hospital hospital) {
+    public Quarto(int numero, Hospital hospital) {
         this.hospital = hospital;
         this.numero = numero;
     }
 
-    protected void setNumero(int numero) {
+    public void setNumero(int numero) {
         this.numero = numero;
     }
 
-    protected void setHospital(Hospital hospital) {
+    public void setHospital(Hospital hospital) {
         this.hospital = hospital;
     }
 
-    protected Hospital getHospital() {
+    public Hospital getHospital() {
         return hospital;
     }
 
-    protected int getNumero() {
+    public int getNumero() {
         return numero;
     }
 

@@ -1,6 +1,6 @@
 package Abstrato;
 
-public abstract class Endereco {
+public class Endereco {
 
     private Pessoa pessoa;
     private String logradouro;

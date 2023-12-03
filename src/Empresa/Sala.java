@@ -2,30 +2,30 @@ package Empresa;
 
 public class Sala {
 
-    protected String tipo;
-    protected Ala ala;
+    private String tipo;
+    private Ala ala;
 
-    protected Sala() {
+    public Sala() {
     }
 
-    protected Sala(String tipo, Ala ala) {
+    public Sala(String tipo, Ala ala) {
         this.tipo = tipo;
         this.ala = ala;
     }
 
-    protected void setAla(Ala ala) {
+    public void setAla(Ala ala) {
         this.ala = ala;
     }
 
-    protected void setTipo(String tipo) {
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 
-    protected Ala getAla() {
+    public Ala getAla() {
         return ala;
     }
 
-    protected String getTipo() {
+    public String getTipo() {
         return tipo;
     }
 

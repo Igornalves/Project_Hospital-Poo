@@ -9,23 +9,24 @@ public abstract class Pessoa {
     private ArrayList<Endereco> enderecos;
     private ArrayList<Email> emails;
     private ArrayList<Telefone> telefones;
-    
-    public Pessoa(){}
 
-    public Pessoa (String nome, int idade){
-        this.nome = nome;
-        this.idade = idade;
+    public Pessoa() {
         enderecos = new ArrayList<Endereco>();
         emails = new ArrayList<Email>();
         telefones = new ArrayList<Telefone>();
     }
 
-    public void adcionarEndereco(Endereco endereco){
-        enderecos.add(endereco);
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
-    public void removerEndereco(Endereco endereco){
-        enderecos.remove(endereco);
+    public void adcionarEndereco(Endereco novoEndereco) {
+        enderecos.add(novoEndereco);
+    }
+
+    public void removerEndereco(Endereco novoEndereco) {
+        enderecos.remove(novoEndereco);
     }
 
     public int quantidadeDeEndereco() {
@@ -36,11 +37,11 @@ public abstract class Pessoa {
         return enderecos.get(posicao);
     }
 
-    public void adcionarEmails(Email email){
+    public void adcionarEmails(Email email) {
         emails.add(email);
     }
 
-    public void removerEmail(Email email){
+    public void removerEmail(Email email) {
         emails.remove(email);
     }
 
@@ -52,11 +53,11 @@ public abstract class Pessoa {
         return emails.get(posicao);
     }
 
-    public void adcionarTelefone(Telefone telefone){
+    public void adcionarTelefone(Telefone telefone) {
         telefones.add(telefone);
     }
 
-    public void removerTelefone(Telefone telefone){
+    public void removerTelefone(Telefone telefone) {
         telefones.remove(telefone);
     }
 
@@ -68,16 +69,19 @@ public abstract class Pessoa {
         return telefones.get(posicao);
     }
 
-   public void setNome(String nome) {
-       this.nome = nome;
-   }
-   public void setIdade(int idade) {
-       this.idade = idade;
-   }
-   public String getNome() {
-       return nome;
-   }
-   public int getIdade() {
-       return idade;
-   }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
 }

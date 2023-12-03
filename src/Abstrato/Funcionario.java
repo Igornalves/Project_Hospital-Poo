@@ -11,7 +11,7 @@ public abstract class Funcionario extends PessoaFisica {
 
     public Funcionario(){}
 
-    public Funcionario(String nome, int idade,String cpf,char sexo,double peso ,Hospital hospital, String matricula,double salario, int cargaHorariaTrabalho) {
+    public Funcionario(String nome, int idade,String cpf,String sexo,double peso ,Hospital hospital, String matricula,double salario, int cargaHorariaTrabalho) {
         super(nome, idade, cpf, sexo, peso);
         this.hospital = hospital;
         this.cargaHorariaTrabalho = cargaHorariaTrabalho;

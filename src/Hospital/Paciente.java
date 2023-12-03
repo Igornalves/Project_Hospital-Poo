@@ -14,7 +14,7 @@ public class Paciente extends PessoaFisica {
         enfermidades = new ArrayList<Enfermidade>();
     }
 
-    public Paciente(String nome, int idade, String cpf, char sexo, double peso, Enfermeiro enfermeiro) {
+    public Paciente(String nome, int idade, String cpf, String sexo, double peso, Enfermeiro enfermeiro) {
         super(nome, idade, cpf, sexo, peso);
         this.enfermeiro = enfermeiro;
     }

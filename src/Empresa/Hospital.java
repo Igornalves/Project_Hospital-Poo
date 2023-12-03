@@ -80,7 +80,7 @@ public class Hospital extends PessoaJuridica {
         return pacientes.size();
     }
 
-    public Paciente getPaciente(int posicao) {
+    public Paciente getTotalDePaciente(int posicao) {
         return pacientes.get(posicao);
     }
 

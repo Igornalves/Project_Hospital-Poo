@@ -1,50 +1,50 @@
 package Abstrato;
 
-public abstract class Email {
+public class Email {
 
     private Pessoa pessoa;
     private String enderecoEmail;
     private String servido;
     private String dominio;
 
-    protected Email(){}
+    public Email(){}
 
-    protected Email (Pessoa pessoa, String enderecoEmail, String servido, String domindo){
+    public Email (Pessoa pessoa, String enderecoEmail, String servido, String domindo){
         this.dominio = domindo;
         this.enderecoEmail = enderecoEmail;
         this.pessoa = pessoa;
         this.servido = servido;
     }
 
-    protected void setDominio(String dominio) {
+    public void setDominio(String dominio) {
         this.dominio = dominio;
     }
 
-    protected void setEnderecoEmail(String enderecoEmail) {
+    public void setEnderecoEmail(String enderecoEmail) {
         this.enderecoEmail = enderecoEmail;
     }
 
-    protected void setServido(String servido) {
+    public void setServido(String servido) {
         this.servido = servido;
     }
 
-    protected void setPessoa(Pessoa pessoa) {
+    public void setPessoa(Pessoa pessoa) {
         this.pessoa = pessoa;
     }
 
-    protected String getDominio() {
+    public String getDominio() {
         return dominio;
     }
 
-    protected String getEnderecoEmail() {
+    public String getEnderecoEmail() {
         return enderecoEmail;
     }
 
-    protected String getServido() {
+    public String getServido() {
         return servido;
     }
 
-    protected Pessoa getPessoa() {
+    public Pessoa getPessoa() {
         return pessoa;
     }
 }
