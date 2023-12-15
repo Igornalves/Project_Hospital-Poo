@@ -1,4 +1,4 @@
-## Projeto Sistema Hospitalar Com PROGRAMAÇÃO ORIENTADA A OBJETOS
+## Projeto SISTEMA HOSPITALAR Com PROGRAMAÇÃO ORIENTADA A OBJETOS
 
 Seja Muito Bem vindo ao repositorio do projeto no qual é um pequeno projeto de faculdade no qual devesse fazer um sistema hospitalar de acordo com o diagrama de classes que foi colocando no projeto pelo professor.
 
