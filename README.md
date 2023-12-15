@@ -41,7 +41,7 @@ Teremos as Classes que são interfaces do projeto:
 
 Este Projeto foi feito todo na linguagem java:. 
 
-<img align="center" alt="java" width="70" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+<img align="center" alt="java" width="15%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
 
 <br>
 
