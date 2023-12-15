@@ -4,7 +4,16 @@ Seja Muito Bem vindo ao repositorio do projeto no qual é uma resposta a uma das
 
 ## Imagem do Diagrama de Classes da Prova
 
-![diagrama de classes](/image.png)
+<!-- ![diagrama de classes](/image.png) -->
+
+<div align="center" style="display: inline_block">
+
+<br>
+<img alt="java" width="75%" src="image.png">
+<br>
+<br>
+
+</div>
 
 Como se pode ver na imagem Existem muitas Classes dentro da questão feita na questão, farei uma lista dessas classes aqui para vcs visualizarem,
 
