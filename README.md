@@ -1,10 +1,10 @@
-## Projeto SISTEMA HOSPITALAR Com PROGRAMAÇÃO ORIENTADA A OBJETOS
+## HOSPITAL SYSTEM Project With OBJECT-ORIENTED PROGRAMMING
 
-Seja Muito Bem vindo ao repositorio do projeto no qual é um pequeno projeto de faculdade no qual devesse fazer um sistema hospitalar de acordo com o diagrama de classes que foi colocando no projeto pelo professor.
+Welcome to the project repository, which is a small college project in which a hospital system was to be created according to the class diagram that was placed in the project by the professor.
 
-## Imagem do Diagrama de Classes do Projeto
+## Image of the Project Class Diagram
 
-<!-- ![diagrama de classes](/image.png) -->
+<!-- ![class diagram](/image.png) -->
 
 <div align="center" style="display: inline_block">
 
@@ -15,56 +15,56 @@ Seja Muito Bem vindo ao repositorio do projeto no qual é um pequeno projeto de 
 
 </div>
 
-Como se pode ver na imagem Existem muitas Classes dentro do Sistema que deve ser desenvolvido, farei uma lista dessas classes aqui para vcs visualizarem,
+As you can see in the image There are many Classes within the System that must be developed, I will make a list of these classes here for you to view,
 
-Vamos comecar listando as Classes Abstratas:
+Let's start by listing the Abstract Classes:
 
 - Email
-- Endereço
-- Funcionario
-- Pessoa
-- Pessoa Fisica
-- Pessoa Juridica
-- Telefone
+- Address
+- Employee
+- Person
+- Physical person
+- Legal person
+- Telephone
 
-Agora iremos lista as Classes de Empresa:
+Now we will list the Company Classes:
 
-- Ala
+- Wing
 - Hospital
-- Quarto
-- Sala
+- Room
+- Living room
 
-Continuando temos as Classes de Hospital:
+Continuing we have the Hospital Classes:
 
-- Enfermeiro 
-- Enfermidade
-- Medico
-- Paciente
+- Nurse
+- Illness
+- Doctor
+- Patient
 
-Teremos as Classes que são interfaces do projeto:
+We will have Classes that are project interfaces:
 
-- Profissional Da Saude
+- Health professional
 
 
-## Explicação Detalhada 
+## Detailed Explanation
 
-Este Projeto foi feito todo na linguagem java:. 
-
+This Project was entirely made in the Java language:.
+<div align="center">
 <img align="center" alt="java" width="15%" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
+</div>
 
 <br>
 
-Linguagem essa que que em nossa materia foi a padrão para que podessemos aprender a programação orientada a objetos.
+This language, in our case, was the standard for us to learn object-oriented programming.
 
-## Participantes Do Projeto Hospitalar
+## Hospital Project Participants
 
-Estar projeto não foi feita de forma individual e sim coletiva.
+This project was not done individually but collectively.
 
-Os integrantes do grupo são: 
+The group members are:
 
-- Igor Nascimento 
-- Alexandre 
+- Igor Nascimento
+- Alexander
 - Marcello Henrique
 
-Agradecer a ele que me ajudaram no projeto que esta finalizado.
-
+I would like to thank him for helping me with the project that has now been completed.
