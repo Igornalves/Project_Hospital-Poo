@@ -9,7 +9,7 @@ Welcome to the project repository, which is a small college project in which a h
 <div align="center" style="display: inline_block">
 
 <br>
-<img alt="java" width="75%" src="Diagrama de Classes do Hospital.png">
+<img alt="java" width="75%" src="./resources/static/images/Diagrama de Classes do Hospital.png">
 <br>
 <br>
 
